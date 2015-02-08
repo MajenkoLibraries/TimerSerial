@@ -9,6 +9,7 @@ Standards-Version: 3.9.4
 
 Package: libtimerserial-chipkit
 Architecture: all
-Depends: chipkit
+Provides: TimerSerial.h
+Depends: chipkit, libtimer-chipkit
 Description: TimerSerial library for chipkit
 
