@@ -89,12 +89,13 @@ class TimerSerial : public Stream {
 		static void interruptHandler();
 		void mainInterrupt();
 
-		void write(uint8_t c) { 
+		size_t write(uint8_t c) { 
 			uint32_t newhead = (_txBuffer->getHead() + 1) % TS_BUFSZ;
 			while (newhead == _txBuffer->getTail()) {
 				newhead = (_txBuffer->getHead() + 1) % TS_BUFSZ;
 			}
 			_txBuffer->write(c); 
+            return 1;
 		}
 		
 		int available() { return _rxBuffer->available(); }
