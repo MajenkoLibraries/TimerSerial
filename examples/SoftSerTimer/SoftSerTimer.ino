@@ -31,9 +31,9 @@
 #include <TimerSerial.h>
 #include <Timer.h>
 
-// Pin 3 is TX, pin 4 is RX.
+// Pin 4 is TX, pin 3 is RX.
 
-TimerSerial mySerial(3, 4);
+TimerSerial mySerial(4, 3);
 
 void setup() {
 	mySerial.begin(9600);

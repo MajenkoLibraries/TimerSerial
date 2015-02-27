@@ -32,7 +32,7 @@
 
 TimerSerial *theConfiguredDevice;
 
-TimerSerial::TimerSerial(uint8_t tx, uint8_t rx) {
+TimerSerial::TimerSerial(uint8_t rx, uint8_t tx) {
 	_pin_tx = tx;
 	_pin_rx = rx;
 	theConfiguredDevice = this;

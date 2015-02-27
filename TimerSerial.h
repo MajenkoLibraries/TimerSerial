@@ -83,7 +83,7 @@ class TimerSerial : public Stream {
 		Timer1 _baudClock;
 		
 	public:
-		TimerSerial(uint8_t tx, uint8_t rx);
+		TimerSerial(uint8_t rx, uint8_t tx);
 		void begin(uint32_t baud);
 
 		static void interruptHandler();
