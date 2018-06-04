@@ -2,7 +2,7 @@ Source: libtimerserial-chipkit
 Section: main
 Priority: extra
 XBSC-Group: Libraries
-XBSC-SubGroup: Communications
+XBSC-SubGroup: Communication
 XBSC-SubSubgroup: Serial
 XBSC-Family: pic32
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
