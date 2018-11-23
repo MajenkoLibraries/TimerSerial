@@ -1,5 +1,0 @@
-LICENSE.md usr/share/doc/libtimerserial-chipkit/
-README.md usr/share/doc/libtimerserial-chipkit/
-TimerSerial.cpp libraries/Communications/chipkit/TimerSerial/
-TimerSerial.h libraries/Communications/chipkit/TimerSerial/
-examples/SoftSerTimer/SoftSerTimer.ino libraries/Communications/chipkit/TimerSerial/examples/SoftSerTimer

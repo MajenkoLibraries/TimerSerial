@@ -1,0 +1,18 @@
+{
+    "name": "TimerSerial",
+    "provides": "TimerSerial.h",
+    "license": "LICENSE.md",
+    "readme": "README.md",
+    "description": "Timer-based SoftwareSerial implementation for chipKIT",
+    "category": "Communications",
+    "subcategory": "Serial",
+    "maintainer": "Matt Jenkins <matt@majenko.co.uk>",
+    "version": "1.0.9",
+    "family": "pic32",
+    "core": "chipkit",
+    "install": {
+        "examples": "/",
+        "TimerSerial.cpp": "/",
+        "TimerSerial.h": "/"
+    }
+}
